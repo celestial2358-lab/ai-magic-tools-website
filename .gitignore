@@ -1,0 +1,81 @@
+# ============================================
+# Git 忽略文件配置
+# 这些文件和文件夹不会被 Git 追踪和上传
+# ============================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.so
+
+# --- 虚拟环境 ---
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# --- 环境变量文件（包含敏感信息，绝对不能上传）---
+.env
+.env.local
+.env.*.local
+*.env
+
+# --- IDE 和编辑器 ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --- 操作系统 ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- 日志文件 ---
+*.log
+logs/
+*.log.*
+
+# --- 上传的临时文件 ---
+uploads/
+tmp/
+temp/
+*.tmp
+
+# --- 依赖文件夹（如果直接复制了）---
+node_modules/
+
+# --- Docker ---
+.docker/
+
+# --- 测试 ---
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/
+*.cover
+.hypothesis/
+
+# --- 其他 ---
+*.bak
+*.orig
+*.pid
+celerybeat-schedule

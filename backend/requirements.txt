@@ -1,0 +1,27 @@
+# ============================================
+# AI Magic Tools — Python 依赖列表
+# ============================================
+
+# Web 框架
+Flask==3.1.0
+flask-cors==6.0.0
+
+# 图片处理
+Pillow==11.2.1
+
+# 文本处理
+python-docx==1.1.2
+openpyxl==3.1.5
+PyPDF2==3.0.1
+markdown==3.8
+beautifulsoup4==4.13.4
+
+# 文件转换
+reportlab==4.3.1
+pdf2image==1.17.0
+
+# 日志与工具
+python-dotenv==1.1.0
+
+# 生产环境部署（可选，本地开发不需要）
+gunicorn==23.0.0

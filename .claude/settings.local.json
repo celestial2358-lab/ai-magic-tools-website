@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m py_compile app.py)",
+      "Bash(python -m py_compile utils/text_processor.py)",
+      "Bash(python -m py_compile utils/image_processor.py)",
+      "Bash(python -m py_compile utils/file_converter.py)"
+    ]
+  }
+}
